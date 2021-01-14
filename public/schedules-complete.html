@@ -74,52 +74,25 @@
         <hr class="italy" />
     </header>
 
-    <section id="schedules-summary" class="page blue">
+    <section id="schedules-complete" class="page green">
 
         <header>
-            <h1>Resumo do Pedido<small>Confira os detalhes do pedido</small></h1>
+            <h1>Pagamento Efetuado</h1>
         </header>
 
         <main>
 
-            <form action="">
+            <header class="page-title">
+                <h2>Obrigado!</h2>
+                <hr />
+            </header>
 
-                <div class="field">
-                    <input type="text" name="payment" id="payment" readonly value="Cartão de Crédito" />
-                    <label for="payment">Forma de Pagamento</label>
-                </div>
+            <p>10 de Julho de 2020</p>
+            <p>Número do Pedido: 000123<small>Cartão de Crédito final 0604</small></p>
 
-                <div class="field">
-                    <input type="text" name="creditcard" id="creditcard" readonly value="***0604" />
-                    <label for="creditcard">Cartão Final</label>
-                </div>
-
-                <div class="field">
-                    <input type="text" name="installments" id="installments" readonly value="À vista" />
-                    <label for="installments">Parcelas</label>
-                </div>
-
-                <div class="field">
-                    <input type="text" name="services" id="services" readonly value="1" />
-                    <label for="services">Quantidade de Serviços</label>
-                </div>
-
-                <div class="field">
-                    <input type="text" name="schedule_at" id="schedule_at" readonly value="01 de outubro de 2020 às 9:00" />
-                    <label for="schedule_at">Data do Serviço</label>
-                </div>
-
-                <div class="field">
-                    <input type="text" name="total" id="total" readonly value="R$ 400,00" />
-                    <label for="total">Valor Total</label>
-                </div>
-
-                <footer class="fixed">
-                    <a href="schedules-payment.html">Voltar</a>
-                    <button type="submit">Continuar</button>
-                </footer>
-
-            </form>
+            <footer class="fixed">
+                <a href="schedules.html">Agendamentos</a>
+            </footer>
 
         </main>
 
@@ -213,6 +186,8 @@
         </aside>
 
     </section>
+
+    <script src="bundle.js"></script>
 
 </body>
 </html>
