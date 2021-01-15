@@ -6,5 +6,12 @@
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  },
+  "apiKey": "AIzaSyBe4ldwZh2hQecRXMpVi2YQsKe5VryevwA",
+  "authDomain": "hcodelab-js.firebaseapp.com",
+  "projectId": "hcodelab-js",
+  "storageBucket": "hcodelab-js.appspot.com",
+  "messagingSenderId": "188919647982",
+  "appId": "1:188919647982:web:d293a149e3605b10192dff",
+  "measurementId": "G-Z634K59Q6E"
 }
